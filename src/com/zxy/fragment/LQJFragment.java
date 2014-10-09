@@ -1,20 +1,22 @@
 package com.zxy.fragment;
 
+import com.zxy.githubdemo.R;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
+
 
 public class LQJFragment extends Fragment {
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		TextView tv_title = new TextView(getActivity());
-		tv_title.setText("罗启建请在这里设置你自己的布局");
-		return tv_title;
+		   View view = inflater.inflate(R.layout.fragment_lqj_layout, null);
+		return view;
 	}
 
 }
