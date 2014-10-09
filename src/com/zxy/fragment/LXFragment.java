@@ -13,7 +13,7 @@ public class LXFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		TextView tv_title = new TextView(getActivity());
-		tv_title.setText("再次更新以后");
+		tv_title.setText("再次更新以后吧vvvv");
 		return tv_title;
 	}
 
